@@ -57,8 +57,8 @@ app.post("/booking", function(req, res){
   res.render("booking", {hotelData: hotelData, firstName:firstName, lastName:lastName});
 });
 
-app.listen(4000, function () {
-    console.log("server start on port 4000");
+app.listen(5000, function () {
+    console.log("server start on port 5000");
 });
 
 // with <%= sign %> the value return will be render and will added to html

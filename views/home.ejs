@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hotel website</title>
+</head>
+<body>
+<h1>hello Welcome to nor1 hotel!</h1>
+    <form action="/booking" method="POST">
+        <label>
+          First Name:
+          <input type="text" name="first" placeholder="First Name" required>
+        </label>
+        <label>
+          Last Name:
+          <input type="text" name="last" placeholder="Last Name" required>
+        </label>
+        <div>
+          <label>
+            Email:
+            <input name="email" type="email" placeholder="your email" required>
+          </label>
+        </div>
+        <div>
+          Type of Room:
+          <select>
+              <option>Type</option>
+              <option value="single">Single $164</option>
+              <option value="queen">Queen $189</option>
+              <option value="king" >King  $194</option>
+              <option value="suite">Suite $199</option>
+          </select>
+        </div>
+        <div>
+            <label for="agreed">I agree to the terms and conditions:</lable>
+            <input id="agreed" name="agreed" type="checkbox">
+        </div>
+        <div>
+          <input type="submit">
+        </div>
+    </form>
+    <label>
+       Total:
+       $ 0
+    </label>
+</body>
+</html>
